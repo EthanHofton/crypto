@@ -1,2 +1,4 @@
 main.cpp
 Makefile
+.gitignore
+src/

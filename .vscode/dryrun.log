@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/ethanhofton/Documents/c++/crypto 2'
+rm -rf bin src/main.o
+mkdir -p ./bin
+c++ -o src/main.o -c src/main.cpp -Wall -std=c++17 -Iinclude/ 
+c++ -o bin/out src/main.o 
+make: Leaving directory `/Users/ethanhofton/Documents/c++/crypto 2'
+ 
